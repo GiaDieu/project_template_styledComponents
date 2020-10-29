@@ -12,7 +12,7 @@ import {
 } from "./NavbarElements";
 import { FaBars } from "react-icons/fa";
 
-const NavItems = ["about", "discover", "services", "Sign Up"];
+const NavItems = ["about", "discover", "services", "signup"];
 const Navbar = ({ toggle }) => {
   return (
     <>
