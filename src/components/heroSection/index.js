@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import data from "../../videos/data.mp4";
+import data2 from "../../videos/data-2.mp4";
 import { Button } from "../shared/ButtonElement";
 
 import {
@@ -24,7 +24,7 @@ const HeroSection = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg autoPlay loop muted src={data} type="video/mp4" />
+        <VideoBg autoPlay loop muted src={data2} type="video/mp4" />
       </HeroBg>
       <HeroContent>
         <HeroHeading>Kao made the imposibilities with capabilities</HeroHeading>
