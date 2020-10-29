@@ -59,6 +59,7 @@ export const TopLine = styled.p`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 1rem;
+  font-weight: 700;
 `;
 
 export const Heading = styled.h2`
