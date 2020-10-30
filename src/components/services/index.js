@@ -15,11 +15,11 @@ const Services = () => {
     <ServicesContainer id="services">
       <ServiceH1>{dataObjectService.title}</ServiceH1>
       <ServiceWrapper>
-        {dataObjectService.info.map(({ img, h2, description }) => (
-          <ServiceCard>
-            <ServiceIcon src={img} />
-            <ServiceH2>{h2}</ServiceH2>
-            <ServiceP>{description}</ServiceP>
+        {dataObjectService.info.map((ele, index) => (
+          <ServiceCard key={index}>
+            <ServiceIcon src={ele.img} />
+            <ServiceH2>{ele.h2}</ServiceH2>
+            <ServiceP>{ele.description}</ServiceP>
           </ServiceCard>
         ))}
       </ServiceWrapper>
