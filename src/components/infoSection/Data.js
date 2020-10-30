@@ -49,7 +49,7 @@ export const homeObjThree = {
   headline: "Creating an Account is super easy",
   description:
     "Get everything set up and ready in short minutes. All you need to do is add your information and you're ready to go",
-  buttonLabel: "Sign Up Now",
+  buttonLabel: "Start Now",
   imgStart: false,
   img: Office,
   alt: "office",
