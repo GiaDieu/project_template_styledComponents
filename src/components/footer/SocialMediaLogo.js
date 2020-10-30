@@ -1,4 +1,5 @@
 import React from "react";
+import { animateScroll as scroll } from "react-scroll";
 import {
   SocialMedia,
   SocialMediaWrapper,
@@ -16,10 +17,16 @@ import {
 } from "react-icons/fa";
 
 const SocialMediaLogo = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <SocialMedia>
       <SocialMediaWrapper>
-        <SocialLogo to="/">KAO</SocialLogo>
+        <SocialLogo to="/" onClick={toggleHome}>
+          KAO
+        </SocialLogo>
         <WebsiteRights>
           KAO &copy; {new Date().getFullYear()} All Rights reserved.
         </WebsiteRights>
